@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import Highlight, { Prism, defaultProps } from 'prism-react-renderer';
 import type { Language } from 'prism-react-renderer';
 
@@ -71,7 +69,7 @@ function Fence(props: FenceProps) {
   let shouldHighlightLine = calculateLinesToHighlight(highlight);
 
   return (
-    <div className="relative" aria-live="polite">
+    <div className="relative" aria-live="polite" dir="ltr">
       <Highlight
         {...defaultProps}
         Prism={Prism}

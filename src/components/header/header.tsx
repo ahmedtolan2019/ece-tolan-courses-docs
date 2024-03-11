@@ -63,7 +63,7 @@ function Header() {
             "
             passHref
           >
-            🔮 Galaxy
+            🧑‍💻 Tolan Docs
           </Link>
         </div>
 

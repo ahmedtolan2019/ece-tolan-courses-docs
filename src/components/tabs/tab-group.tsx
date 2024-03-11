@@ -9,7 +9,7 @@ function TabGroup(props: TabGroupProps) {
   let { children, ...rest } = props;
 
   return (
-    <div className="w-full my-6">
+    <div className="w-full my-6" dir="ltr">
       <Tab.Group {...rest}>{children}</Tab.Group>
     </div>
   );

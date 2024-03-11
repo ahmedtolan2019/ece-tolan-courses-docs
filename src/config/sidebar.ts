@@ -10,11 +10,15 @@ export type SidebarItem = {
 
 export const SIDEBAR: Array<SidebarItem> = [
   {
-    title: 'Getting Started',
+    title: 'ECE SW Labs',
     children: [
       {
-        title: 'Overview',
+        title: 'Lab 0',
         slug: '/docs',
+      },
+      {
+        title: 'Lab 1',
+        slug: '/docs/ece-sw-lab-1',
       },
     ],
   },
